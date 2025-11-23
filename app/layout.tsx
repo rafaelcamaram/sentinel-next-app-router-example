@@ -28,10 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ForttProvider
-          projectId="cmi4w18p100006m0fzctnhi0b"
-          apiBaseUrl="http://localhost:8080"
-        >
+        <ForttProvider projectId="cmi4w18p100006m0fzctnhi0b">
           {children}
         </ForttProvider>
       </body>
